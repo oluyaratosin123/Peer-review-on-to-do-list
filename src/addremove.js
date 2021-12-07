@@ -66,7 +66,7 @@ const createToDo = (description) => {
 document.querySelector('.input > input').addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
     createToDo(e.target.value);
-    console.log('object');
+//     console.log('object');
     window.location.reload();
     e.target.value = '';
   }
